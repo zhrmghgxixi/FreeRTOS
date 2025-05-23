@@ -79,7 +79,8 @@ static void Task1(void* parameter)
     {
         OLED_Clear();
         OLED_ShowString(1, 1, "Task1"); // 第1行显示
-        vTaskDelay(800);
+        vTaskDelay(6000);
+		vTaskDelete(Task2_Handle);
     }
 }
 
@@ -100,5 +101,10 @@ static void Task3(void* parameter)
         OLED_Clear();
         OLED_ShowString(4, 1, "Task3"); // 第3行显示
         vTaskDelay(800);
+//		vTaskDelete(Task1_Handle);
+		vTaskSuspend(Task1_Handle);
+		vTaskDelay(5000);
+		vTaskResume(Task1_Handle);
+		vTaskDelay(5000);
     }
 }
