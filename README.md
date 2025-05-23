@@ -9,7 +9,7 @@
 | 文件/文件夹名         | 内容说明                                                                 |
 |------------------------|--------------------------------------------------------------------------|
 | `FreeRTOS_learning`    | 📒 他人笔记与学习代码，版本为 FreeRTOS **10.4.6**，来自 [xrbin 的 Gitee 仓库](https://gitee.com/xrbin/FreeRTOS_learning/tree/master/FreeRTOS10.4.6/01-%E7%AC%94%E8%AE%B0)。我仅作为学习整理与资料分享。 |
-| `Freertos_Basic`       | 🛠 自己编写的 FreeRTOS 工程代码，基于 **STM32F103C8T6** 开发板编写，作为入门和测试用途。 |
+| `FreeRTOS_Basic`       | 🛠 自己编写的 FreeRTOS 工程代码，基于 **STM32F103C8T6** 开发板编写，作为入门和测试用途。 |
 | `Source`               | 📦 整理好的 FreeRTOS 核心源码，包含必要的任务管理、调度器、内存管理等模块，可直接用于项目移植。 |
 | `FreeRTOSConfig.h`     | ⚙️ 配置文件，自定义的 FreeRTOS 版本配置头文件，包含调度优先级、堆大小、钩子函数等参数设置。 |
 
